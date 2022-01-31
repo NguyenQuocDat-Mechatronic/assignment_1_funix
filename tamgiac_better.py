@@ -4,6 +4,7 @@ inputtoado = inputtoado.strip("[,]")
 inputtoado = inputtoado.split(",")
 input =[]
 """handle nếu input ko phải integer"""
+"""update may moi 31.01.2022"""
 try :
     for i in inputtoado:
         input.append(int(i))
